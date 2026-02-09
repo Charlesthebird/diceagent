@@ -1,0 +1,18 @@
+agentName: diceagent
+image: localhost:5001/diceagent:latest
+language: python
+framework: adk
+modelProvider: gemini
+modelName: gemini-2.0-flash
+description: ""
+telemetryEndpoint: http://35.231.190.130:4318/v1/traces
+mcpServers:
+    - type: registry
+      name: user-my-mcp-server
+      env:
+        - MCP_TRANSPORT_MODE=http
+        - HOST=0.0.0.0
+      registryURL: http://34.148.248.178:8080
+      registryServerName: user/my-mcp-server
+      registryServerVersion: 0.1.0
+updatedAt: 2026-02-09T17:27:01.725853-05:00
