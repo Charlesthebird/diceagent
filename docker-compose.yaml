@@ -37,15 +37,6 @@ services:
         target: /config
     networks:
       - agentregistry-network
-  nicholasbucher-my-mcp-server:
-    image: docker.io/nicholasbucher/my-mcp-server:0.1.0
-    expose:
-      - "3000"
-    environment:
-      - MCP_TRANSPORT_MODE=http
-      - HOST=0.0.0.0
-    networks:
-      - agentregistry-network
 
 networks:
   agentregistry-network:

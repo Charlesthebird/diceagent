@@ -2,7 +2,7 @@
   "name": "diceagent",
   "description": "A diceagent agent",
   "url": "http://localhost:8080",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "capabilities": {
     "streaming": true
   },
