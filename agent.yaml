@@ -1,4 +1,5 @@
 agentName: diceagent
+version: 0.0.5
 image: localhost:5001/diceagent:latest
 language: python
 framework: adk
