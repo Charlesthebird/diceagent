@@ -1,0 +1,9 @@
+agentName: diceagentcli2
+image: nicholasbucher/diceagentcli2amd:latest
+language: python
+framework: adk
+modelProvider: gemini
+modelName: gemini-2.0-flash
+description: ""
+telemetryEndpoint: http://34.74.7.119:4318/v1/traces
+updatedAt: 2026-02-17T12:00:54.292469-05:00

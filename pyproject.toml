@@ -1,0 +1,9 @@
+[project]
+name = "diceagentcli2"
+version = "0.1"
+description = "diceagentcli2 agent"
+readme = "README.md"
+dependencies = [
+  "google-adk>=1.8.0",
+]
+

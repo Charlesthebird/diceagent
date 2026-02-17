@@ -1,0 +1,20 @@
+{
+  "name": "diceagentcli2",
+  "description": "A diceagentcli2 agent",
+  "url": "http://localhost:8080",
+  "version": "0.0.1",
+  "capabilities": {
+    "streaming": true
+  },
+  "defaultInputModes": ["text"],
+  "defaultOutputModes": ["text"],
+  "skills": [
+    {
+      "id": "diceagentcli2",
+      "name": "diceagentcli2",
+      "description": "A diceagentcli2 agent",
+      "tags": ["diceagentcli2"]
+    }
+  ]
+}
+
