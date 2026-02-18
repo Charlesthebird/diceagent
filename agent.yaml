@@ -12,7 +12,7 @@ mcpServers:
       env:
         - MCP_TRANSPORT_MODE=http
         - HOST=0.0.0.0
-      registryURL: http://34.148.92.224:8080
+      registryURL: http://34.23.30.248:8080
       registryServerName: user/mymcpservercli
       registryServerVersion: 0.1.0
 updatedAt: 2026-02-17T16:38:03.516746-05:00
